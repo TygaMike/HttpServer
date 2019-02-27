@@ -1,8 +1,9 @@
 <html>
     <body>
-        <form action="fileupload">
-            <input type="file"><br>
-            <input type="submit" value="Submit">
+        <form method="POST" action="uploads/" enctype="multipart/form-data">
+            <input name="uploadFile" id="uploadFile" type="file" />
+            <br>
+            <input type="submit" id="submit" value="Submit">
         </form>
     </body>
 </html>
